@@ -591,8 +591,4 @@ footer .copyright .pro-links i:hover{
 		width: 100%;
 		padding: 30px;
 	}
-	#teachers .teacher-box {
-		display: flex;
-		flex-direction: column;
-	}
 }
