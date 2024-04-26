@@ -1,0 +1,125 @@
+<html>
+<head>
+	<meta charsets="UTF-8">
+	<meta http-equiv="X-UA-Compatible" contents="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About</title>
+
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+<!------------------------------------------------------------Navigation------------------------------------------------------>
+	<nav>
+		<img src="images/logo.png">
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a class="active" href="about.html">About</a></li>
+				<li><a href="activities.html">Activities</a></li>
+				<li><a href="course.html">Courses</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<img id="menu-btn" src="images/menu.png">
+		</div>
+	</nav>
+<!------------------------------------------------------------Home------------------------------------------------------>
+	<section id="about-home">
+		<h2>About DBA</h2>
+	</section>
+
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/a1.png">
+        </div>
+
+        <div class="about-text">
+            <h2>What is DBA?</h2>
+            <p>The Digital Business Academy at Milpitas High School prepares students for college and career. High-quality, hands-on Career Technical 
+                Education instructors provide students with classroom and industry experiences. The Digital Business Academy is grant-funded through the California Department of Education and 
+                follows the requirements of the State CPA Academy Program Model (in addition to the regular high school curriculum).</p>
+                <div class="about-fe">
+                    <img src="images/fea1.png">
+                    <div class="fe-text">
+                        <h5>Guest Speakers</h5>
+                        <p>The Digital Business Academy invites industry specialists as a guest speaker for the academy 
+                            students to get an overview of the real world.</p>
+                    </div>
+                    
+                </div>
+                <div class="about-fe">
+                    <img src="images/fea2.png">
+                    <div class="fe-text">
+                        <h5>Field Trips</h5>
+                        <p>The Digital Business Academy offeres college campus visits and field trips which look great on a college appilcation.</p>
+                        </div>
+                </div>
+        </div>
+    </section>
+<!------------------------------------------------------------Features------------------------------------------------------>
+
+	<section id= "features">	
+		<h1>Features</h1>
+		<p>All of our students have a strong desire for a successful future!</p>
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-handshake"></i>
+				<h3>Proffessional Networking</h3>
+				<p>The Digital Business Academy courses offer networking with industry proffessionals by workplace readiness certification with verified companies.</p>
+			</div>
+			<div class="fea-box">
+				<i class="fas fa-briefcase"></i>
+				<h3>Internships</h3>
+				<p>The Digital Business Academy prepares students in their interest career field by offering a wide range of internships.</p>
+			</div>
+			<div class="fea-box">
+				<i class="fas fa-certificate"></i>
+				<h3>College Credit</h3>
+				<p>The courses offered at the Digital Business Academy are UC/CSU courses which count as college articulated credit in some colleges.</p>
+			</div>
+		</div>
+	</section>
+
+<section id="trust">
+	<h1>Trusted By</h1>
+		<p>All of our students have a strong desire for a successful future!</p>
+		<div class="trust-img">
+			<img src="images/trust1.jpeg">
+			<img src="images/trust2.png">
+			<img src="images/trust3.jpeg">
+			<img src="images/trust4.jpeg">
+		</div>
+	</section>
+
+<!------------------------------------------------------------------footer------------------------------------------------>
+	<footer>
+		<div class="copyright">
+			<p>Copyright ©2024 All rights reserved | This site is made by Digital Business Academy</p>
+			<div class="pro-links">
+				<i class="fab fa-facebook-f"></i>
+				<a href="https://www.instagram.com/mhs_dba?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+				<i class="fab fa-linkedin-in"></i>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+	
+
+</body>
+
+</html>

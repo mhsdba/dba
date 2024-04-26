@@ -1,0 +1,83 @@
+<html>
+<head>
+	<meta charsets="UTF-8">
+	<meta http-equiv="X-UA-Compatible" contents="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+<!------------------------------------------------------------Navigation------------------------------------------------------>
+	<nav>
+		<img src="images/logo.png">
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="activities.html">Activities</a></li>
+				<li><a href="course.html">Courses</a></li>
+				<li><a class="active" href="contact.html">Contact</a></li>
+			</ul>
+			<img id="menu-btn" src="images/menu.png">
+		</div>
+	</nav>
+<!------------------------------------------------------------Home------------------------------------------------------>
+<section id="about-home">
+    <h2>Contact Us</h2>
+</section>
+
+<!------------------------------------------------------------contact------------------------------------------------------>
+<section id="contact">
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6334.828866277522!2d-121.90310502463063!3d37.45093573074928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcf3566e07d13%3A0x8cb806b94146f8!2sMilpitas%20High%20School!5e0!3m2!1sen!2sus!4v1713663004670!5m2!1sen!2sus" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="address">
+        <h2>Where is DBA?</h2>
+        <hr>
+        <p>1285 Escuela Pkwy<br>Milpitas CA 95035<br><br><br></p>
+
+        <h2>Follow Us</h2>
+        <hr>
+        <p>Follow is on Instgram</p>
+        <div class="pro-links">
+            <a href="https://www.instagram.com/mhs_dba?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</section>
+
+
+
+<!------------------------------------------------------------------footer------------------------------------------------>
+	<footer>
+		<div class="copyright">
+			<p>Copyright ©2024 All rights reserved | This site is made by Digital Business Academy</p>
+			<div class="pro-links">
+				<i class="fab fa-facebook-f"></i>
+				<a href="https://www.instagram.com/mhs_dba?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+				<i class="fab fa-linkedin-in"></i>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+	
+
+</body>
+
+</html>
